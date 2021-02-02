@@ -10,6 +10,7 @@ mode con: cols=47 lines=19
 chcp 65001
 cls
 
+
 REM Define constant variables (change if necessary)
 REM --------------------------------
 set ProgID=EC3004B918D
@@ -30,6 +31,7 @@ echo.
 
 :enter
 set input=
+
 echo [35mPress Enter to start programming[0m
 set /p input=
 if not '%input%'=='' goto enter
